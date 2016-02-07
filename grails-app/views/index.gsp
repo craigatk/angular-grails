@@ -107,6 +107,6 @@
         <g:message code="spinner.alt" default="Loading&hellip;"/>
     </div>
 
-    <asset:javascript src="/angular/grails/angular.grails.js" />
+    <asset:javascript src="/app/angular.grails.js" />
 </body>
 </html>

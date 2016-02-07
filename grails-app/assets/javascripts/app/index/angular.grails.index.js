@@ -9,5 +9,5 @@
 angular.module("angular.grails.index", [
   "angular.grails.core",
   "ui.bootstrap.dropdown",
-  "ui.bootstrap.collapse",
+  "ui.bootstrap.collapse"
 ]);
