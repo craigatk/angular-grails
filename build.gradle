@@ -85,19 +85,19 @@ task wrapper(type: Wrapper) {
     gradleVersion = gradleWrapperVersion
 }
 bower {
-    'angular'('1.4.x') {
+    'angular'('1.5.0') {
         source 'angular.js'
     }
-    'angular-resource'('1.4.x') {
+    'angular-resource'('1.5.0') {
         source 'angular-resource.js' >> '/angular/'
     }
-    'angular-mocks'('1.4.x') {
+    'angular-mocks'('1.5.0') {
         source 'angular-mocks.js' >> '/angular/'
     }
-    'angular-bootstrap'('1.1.x') {
+    'angular-bootstrap'('1.1.2') {
         source 'ui-bootstrap-tpls.js' >> '/angular/'
     }
-    'bootstrap'('3.x.x') {
+    'bootstrap'('3.3.6') {
         source 'dist/css/bootstrap.css' >> '/bootstrap/'
     }
 }
