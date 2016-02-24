@@ -75,10 +75,16 @@ dependencies {
     runtime "com.h2database:h2"
     runtime "org.grails.plugins:asset-pipeline"
     testCompile "org.grails:grails-plugin-testing"
+
     testCompile "org.grails.plugins:geb"
+    testCompile "org.gebish:geb-core:0.13.1"
+
     testCompile "org.grails:grails-datastore-rest-client"
-    testRuntime "org.seleniumhq.selenium:selenium-htmlunit-driver:2.47.1"
-    testRuntime "net.sourceforge.htmlunit:htmlunit:2.18"
+
+    testCompile "org.seleniumhq.selenium:selenium-support:${project.seleniumVersion}"
+    testCompile "org.seleniumhq.selenium:selenium-chrome-driver:${project.seleniumVersion}"
+    testCompile "org.seleniumhq.selenium:selenium-firefox-driver:${project.seleniumVersion}"
+    testCompile "org.seleniumhq.selenium:selenium-ie-driver:${project.seleniumVersion}"
 }
 
 task wrapper(type: Wrapper) {
